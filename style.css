@@ -1,0 +1,121 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header{
+   background: #ffffff;
+   border-bottom: 1px solid #e5e7eb;
+}
+/* Navbar container */
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+/* Logo */
+.logo{
+    height: 32px;
+}
+/* Navigation links */
+.nav-links{
+    display: flex;
+    gap: 24px;
+}
+/* Navigation links anchor */
+.nav-links a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+/* Button  */
+.nav-button{
+    background-color: #2f855a;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Section-1: Hero */
+.hero{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+/* Section-1: Hero, Hero-Overlay */
+.hero-overlay{
+    background: none;
+    padding: 120px 20px;
+}
+/* Section-1: Hero, Hero-Container */
+.hero-container{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Section-1: Hero, Hero-Container, Hero-badge */
+.hero-badge{
+    display: inline-flex;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #2f855a;
+    margin-bottom: 20px;
+}
+/* Section-1: Hero, Hero-Container h1 */
+.hero-container h1{
+    font-size: 44px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+/* Section-1: Hero, Hero-Container h1 Span */
+.hero-container h1 span{
+    color: #22c55e;
+}
+/* Section-1: Hero, Hero-Container p */
+.hero-container p{
+    max-width: 600px;
+    margin: 0 auto 32px;
+    color: #ffffff;
+    
+}
+/* Section-1 Hero-actions */
+.hero-actions{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+/* Section-1 Hero-actions anchor */
+.hero-actions a{
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* Section-1 Hero-actions anchor First Button */
+.hero-actions a:first-child{
+  background: #2f855a;
+  color: #ffffff;
+}
+/* Section-1 Hero-actions anchor last Button */
+.hero-actions a:last-child{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+
