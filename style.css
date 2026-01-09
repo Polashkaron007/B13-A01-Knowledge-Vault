@@ -222,3 +222,52 @@ body{
     margin-bottom: 12px;
     font-size: 14px;
 }
+/* Section-4 CTA */
+.cta{
+    background: #ffffff;
+    padding: 100px 0;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+/* Section-4 Card-Box */
+.cta-box{
+    background: #f9f7f2;
+    border-radius: 16px;
+    padding: 40px 80px;
+    text-align: center;
+}
+/* Section-4 CTA-Box h2 */
+.cta-box h2{
+    font-size: 40px;
+    color: #0f172a;
+    margin-bottom: 16px;
+}
+/* Section-4 CTA-Box p */
+.cta-box p{
+    font-size: 16px;
+    color: #64748b;
+    margin-bottom: 8px;
+    gap: 10px
+;
+}
+/* Section-4 CTA-Button */
+.cta-button{
+    display: inline-block;
+    margin: 32px 0 24px;
+    padding: 14px 28px;
+    gap: 24px;
+    background: #2f855a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+/* Section-4 CTA */
+.cta-note{
+    font-size: 14px;
+    color: #64748b;
+}
