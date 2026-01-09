@@ -51,7 +51,7 @@ body{
     font-size: 16px;
 }
 /* Section-1: Hero */
-.hero{
+#hero{
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -118,4 +118,49 @@ body{
     color: #ffffff;
 }
 
-
+#problems{
+    background: #ffffff;
+    padding: 80px 20px;
+}
+.problems-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+#problems h2{
+    font-size: 44px;
+    margin-bottom: 16px;
+    
+}
+.problems-container p{
+    font-size: 15px;
+    columns: #64748b;
+    margin-bottom: 50px;
+}
+.problems-grid{
+    display: flex;
+    gap: 24px;
+}
+.problems-card{
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.05);
+}
+.problems-icon{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    background: #ec4545;
+    color: #f10505;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.problems-card p{
+    font-size: 12px;
+    color: #7f8fa6;
+    margin-top: 12px;
+}
