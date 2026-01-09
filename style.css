@@ -118,35 +118,42 @@ body{
     color: #ffffff;
 }
 
+/* Section-2 Problems  */
 #problems{
     background: #ffffff;
     padding: 80px 20px;
 }
+/* Section-2 Problems-Container  */
 .problems-container{
     max-width: 1100px;
     margin: 0 auto;
     text-align: center;
 }
+/* Section-2 Problems h2  */
 #problems h2{
     font-size: 44px;
     margin-bottom: 16px;
     
 }
+/* Section-2 Problems Paragraph  */
 .problems-container p{
     font-size: 15px;
     columns: #64748b;
     margin-bottom: 50px;
 }
+/* Section-2 Problems-Grid  */
 .problems-grid{
     display: flex;
     gap: 24px;
 }
+/* Section-2 Problems-Card  */
 .problems-card{
     background: #ffffff;
     padding: 30px 20px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgb(0, 0, 0, 0.05);
 }
+/* Section-2 Problems-Icon Fix  */
 .problems-icon{
     width: 48px;
     height: 48px;
@@ -159,8 +166,59 @@ body{
     justify-content: center;
     font-size: 20px;
 }
+/* Section-2 Problems-Card Paragraph  */
 .problems-card p{
     font-size: 12px;
     color: #7f8fa6;
     margin-top: 12px;
+}
+
+/* Section-3 Solution  */
+.solution{
+    background: #ffffff;
+    padding: 100px 20px;
+}
+/* Section-3 Layout: image left, text right */
+.solution-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+/* Section-3 Solution-Content-Image  */
+.solution-container img{
+    width: 100%;
+    max-width: 450px;
+}
+/* Section-3 Small green label */
+.solution-label{
+    color: #26c066;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* Section-3 Solution-Content h2 */
+.solution-content h2{
+    font-size: 32px;
+    margin: 12px 0 20px;
+}
+/* Section-3 Solution-Content Paragraph */
+.solution-content p{
+    font-size: 15px;
+    color: #64748b;
+    max-width: 420px;
+    margin-bottom: 24px;
+}
+/* Section-3 Solution-All-List(ul&li) */
+
+.solution-list{
+    list-style: none;
+    padding: 0;
+}
+.solution-list li{
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    font-size: 14px;
 }
